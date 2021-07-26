@@ -1,0 +1,343 @@
+.adminPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.headCont {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.bodyCont,
+.addBodyCont {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  align-items: center;
+  color: #000000;
+  margin-left: 13%;
+}
+.changeTitle,
+.nameTitle,
+.translationWord {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  color: #3f51b5;
+}
+.categoriesInput,
+.inputName {
+  height: 80%;
+  width: 88%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #116cf5;
+}
+.buttonCatContainer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+.buttonAdd,
+.buttonUpdate,
+.buttonCancel,
+.buttonCreate,
+.buttonNewCancel,
+.buttonNewAdd {
+  color: #00bf82;
+  border-radius: 10px;
+  border: 1px solid #00bf82;
+}
+.buttonAdd:hover,
+.buttonUpdate:hover,
+.buttonArt:hover,
+.buttonCancel:hover,
+.buttonCreate:hover,
+.buttonNewCancel:hover,
+.buttonNewAdd:hover {
+  cursor: pointer;
+  color: #e53935;
+  border: 1px solid #e53935;
+}
+.categoriesContainer {
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 20px 25px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 40%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wordsContainer {
+  padding: 10px 10px 0 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 20px 25px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 40%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.titleCat {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.categoriesTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.categoriesAddContainer {
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 20px 25px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 40%);
+  position: relative;
+}
+.categoriesContainer:hover {
+  box-shadow: -1px 5px 15px 0 rgb(0 0 0 / 50%);
+  cursor: pointer;
+}
+.create_span {
+  display: block;
+  width: 70px;
+  height: 7px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #131212;
+  border-radius: 3px;
+  transform-origin: 4px 0;
+}
+.create_span {
+  transform: rotate(0deg) translate(12px, 41px);
+}
+.create_span:nth-last-child(1) {
+  transform: rotate(-90deg) translate(-65px, 39px);
+}
+.head_span {
+  display: block;
+  width: 27px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  transform-origin: 4px 0;
+}
+.spanCont:hover .head_span {
+  cursor: pointer;
+  background: #e53935;
+}
+.head_span {
+  transform: rotate(38deg) translate(7px, -1px);
+}
+.head_span:nth-last-child(1) {
+  transform: rotate(-45deg) translate(-2px, 8px);
+}
+.titleCatContainer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-right: 35%;
+}
+.createCat {
+  border: 4px solid black;
+  margin-top: 17%;
+  border-radius: 50px;
+  height: 38%;
+  width: 33%;
+  margin-left: 31%;
+}
+.createCat:hover .create_span {
+  cursor: pointer;
+  background: #e53935;
+}
+.createCat:hover {
+  cursor: pointer;
+  border-color: #e53935;
+}
+.selectCat {
+  border: 3px solid #0935f5;
+}
+.wordTitle,
+.translationTitle,
+.soundTitle,
+.imageTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+.wordName,
+.translationName,
+.soundName {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 5px;
+}
+.imgAdm {
+  height: 81px;
+  width: 110px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.buttonArt {
+  width: 100%;
+  margin-top: 5px;
+  color: #00bf82;
+  border-radius: 10px;
+  border: 1px solid #00bf82;
+}
+
+.noExist {
+  display: none;
+}
+
+.inputSrc {
+  width: 94%;
+  font-size: 16px;
+}
+.catAddCont {
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 20px 25px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 40%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.addBodyCont {
+  margin-bottom: 48px;
+}
+.inputName {
+  height: 30%;
+  margin-bottom: 45px;
+}
+.firstStrCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newWordFrom {
+  border: 1px solid #ccc;
+  width: 315px;
+  height: 380px;
+  border-radius: 5px;
+  margin: 20px 25px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 40%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+.sTitle,
+.iTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-right: 48px;
+}
+.soundChoice,
+.imageChoice {
+  width: 124px;
+}
+
+.nameInput,
+.translationInput {
+  margin-bottom: 10px;
+  height: 80%;
+  width: 88%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #116cf5;
+}
+.soundCont {
+  display: flex;
+  align-items: center;
+}
+.translationCont{
+  margin-bottom: 7px;
+}
+.soundContainer {
+  margin-bottom: 24px;
+}
+.buttonCont {
+  display: flex;
+  justify-content: inherit;
+}
+
+.buttonNewCancel,
+.buttonNewAdd {
+  width: 85px;
+}
+.soundPlay {
+  background-image: url(../../../../public/listen.svg);
+  width: 29px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-size: 32px 32px, cover;
+  background-position: 50%;
+  margin-left: 10px;
+}
+.soundPlay:hover{
+  cursor: pointer;
+}
+
+.errorFile {
+  color: red;
+  font-size: 15px;
+}
+
+.errorName {
+  color: red;
+}

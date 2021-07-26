@@ -1,0 +1,188 @@
+.body {
+  margin-bottom: 100px;
+}
+.authorizationCover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.authorizationForm {
+  width: 32vw;
+  height: 45vh;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  top: 26vh;
+  left: 34vw;
+  background-color: white;
+}
+.authorizationInfo{
+  height: 50%;
+}
+.authorizationTitle{
+  text-align: center;
+}
+.loginTitle{
+  margin-left: 3%;
+  margin-right: 50%;
+  font-size: 10px;
+}
+.authorizationBCont{
+  background: linear-gradient(40deg, #00bf82, #0099ae);
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cancelButton,
+.loginButton{
+  width: 58px;
+  border-radius: 5%;
+}
+.err{
+  color: red;
+}
+.cancelButton:hover,
+.loginButton:hover{
+  background-color: #E53935;
+  cursor: pointer;
+}
+.loginInput,
+.passwordInput{
+  width: 73%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-right: 16%;
+}
+.hidden {
+  display: none;
+}
+.gameBlock {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px 15px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.cardCategory {
+  width: 300px;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 25px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.cardCategory:hover {
+  box-shadow: 0 10px 20px rgb(0 0 0 / 40%);
+}
+.cardImg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  object-fit: cover;
+  margin: 30px auto;
+}
+.result {
+  display: flex;
+  max-width: 1012px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 36px;
+  height: 40px;
+  justify-content: flex-end;
+  overflow-x: hidden;
+  line-height: 36px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #fd6a63, #feb46b);
+  padding: 0px 10px;
+  transition: 0.3s;
+}
+.button {
+  box-sizing: border-box;
+  padding: 20px 25px;
+  font-size: 24px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 450px;
+  height: 65px;
+  background: linear-gradient(40deg, #ffd86f, #fc6262);
+  color: #fff;
+  border-radius: 10px;
+  outline: 0 !important;
+  border-width: 1px;
+  transition: 0.3s;
+}
+.button:hover {
+  cursor: pointer;
+}
+.buttonContainer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.repeater {
+  width: 65px;
+  font-size: 0;
+  background-image: url(../../../public/reset.svg),
+    linear-gradient(40deg, #ffd86f, #fc6262);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 32px 32px, cover;
+  background-position: 50%;
+}
+.titleContainer {
+  text-align: center;
+}
+.title {
+  font-family: "Roboto";
+  color: #212529;
+}
+.inactive {
+  opacity: 0.5;
+  cursor: initial;
+}
+.winnerImgContainer {
+  text-align: center;
+}
+.imgWinner {
+  width: 61%;
+  height: auto;
+}
+@media all and (min-width: 340px) and (max-width: 409px) {
+  .cardCategory,
+  .SelectCards {
+    width: 260px;
+  }
+}
+@media all and (min-width: 315px) and (max-width: 339px) {
+  .cardCategory,
+  .SelectCards {
+    width: 260px;
+  }
+}

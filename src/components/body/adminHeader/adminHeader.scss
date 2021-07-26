@@ -1,0 +1,54 @@
+.adminHeader {
+  height: 7vh;
+  background: linear-gradient(40deg, #00bf82, #0099ae);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choiceContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  align-items: center;
+  margin-left: 2%;
+}
+.logOut {
+  margin-right: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.adminWords,
+.adminCategories {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 30%;
+}
+.adminWords{
+  color: #c3b6b6;
+}
+
+.active,
+.adminCategories{
+  color: #ffffff;
+}
+.active:hover,
+.adminCategories:hover {
+  cursor: pointer;
+  color: #e53935;
+}
+.hActive{
+  border-bottom: 3px solid #116cf5;
+}

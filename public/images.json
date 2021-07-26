@@ -1,0 +1,404 @@
+[
+  ["animals", "colors", "food", "fruits", "toys", "vegetables", "weather", "body"],
+  [
+    {
+      "word": "cat",
+      "translation": "кот",
+      "image": "cat.jpg",
+      "audioSrc": "cat.mp3"
+    },
+    {
+      "word": "dog",
+      "translation": "собака",
+      "image": "dog.jpg",
+      "audioSrc": "dog.mp3"
+    },
+    {
+      "word": "elephant",
+      "translation": "слон",
+      "image": "elephant.jpg",
+      "audioSrc": "elephant.mp3"
+    },
+    {
+      "word": "fox",
+      "translation": "лиса",
+      "image": "fox.jpg",
+      "audioSrc": "fox.mp3"
+    },
+    {
+      "word": "horse",
+      "translation": "лошадь",
+      "image": "horse.jpg",
+      "audioSrc": "horse.mp3"
+    },
+    {
+      "word": "panda",
+      "translation": "панда",
+      "image": "panda.jpg",
+      "audioSrc": "panda.mp3"
+    },
+    {
+      "word": "pig",
+      "translation": "свинка",
+      "image": "pig.jpg",
+      "audioSrc": "pig.mp3"
+    },
+    {
+      "word": "tiger",
+      "translation": "тигр",
+      "image": "tiger.jpg",
+      "audioSrc": "tiger.mp3"
+    }
+
+  ],
+  [
+    {
+      "word": "black",
+      "translation": "черный",
+      "image": "black.jpg",
+      "audioSrc": "black.mp3"
+    },
+    {
+      "word": "blue",
+      "translation": "синий",
+      "image": "blue.jpg",
+      "audioSrc": "blue.mp3"
+    },
+    {
+      "word": "green",
+      "translation": "зеленый",
+      "image": "green.jpg",
+      "audioSrc": "green.mp3"
+    },
+    {
+      "word": "orange",
+      "translation": "оранжевый",
+      "image": "orange.jpg",
+      "audioSrc": "orange.mp3"
+    },
+    {
+      "word": "pink",
+      "translation": "розовый",
+      "image": "pink.jpg",
+      "audioSrc": "pink.mp3"
+    },
+    {
+      "word": "purple",
+      "translation": "фиолетовый",
+      "image": "purple.jpg",
+      "audioSrc": "purple.mp3"
+    },
+    {
+      "word": "red",
+      "translation": "красный",
+      "image": "red.jpg",
+      "audioSrc": "red.mp3"
+    },
+    {
+      "word": "yellow",
+      "translation": "желтый",
+      "image": "yellow.jpg",
+      "audioSrc": "yellow.mp3"
+    }
+  ],
+  [
+    {
+      "word": "bread",
+      "translation": "хлеб",
+      "image": "bread.jpg",
+      "audioSrc": "bread.mp3"
+    },
+    {
+      "word": "chocolate",
+      "translation": "шоколад",
+      "image": "chocolate.jpg",
+      "audioSrc": "chocolate.mp3"
+    },
+    {
+      "word": "eggs",
+      "translation": "яйца",
+      "image": "eggs.jpg",
+      "audioSrc": "eggs.mp3"
+    },
+    {
+      "word": "juice",
+      "translation": "сок",
+      "image": "juice.jpg",
+      "audioSrc": "juice.mp3"
+    },
+    {
+      "word": "milk",
+      "translation": "молоко",
+      "image": "milk.jpg",
+      "audioSrc": "milk.mp3"
+    },
+    {
+      "word": "sugar",
+      "translation": "сахар",
+      "image": "sugar.jpg",
+      "audioSrc": "sugar.mp3"
+    },
+    {
+      "word": "tea",
+      "translation": "чай",
+      "image": "tea.jpg",
+      "audioSrc": "tea.mp3"
+    },
+    {
+      "word": "water",
+      "translation": "вода",
+      "image": "water.jpg",
+      "audioSrc": "water.mp3"
+    }
+  ],
+  [
+    {
+      "word": "apple",
+      "translation": "яблоко",
+      "image": "apple.jpg",
+      "audioSrc": "apple.mp3"
+    },
+    {
+      "word": "banana",
+      "translation": "банан",
+      "image": "banana.jpg",
+      "audioSrc": "banana.mp3"
+    },
+    {
+      "word": "grape",
+      "translation": "виноград",
+      "image": "grape.jpg",
+      "audioSrc": "grape.mp3"
+    },
+    {
+      "word": "lemon",
+      "translation": "лимон",
+      "image": "lemon.jpg",
+      "audioSrc": "lemon.mp3"
+    },
+    {
+      "word": "melon",
+      "translation": "дыня",
+      "image": "melon.jpg",
+      "audioSrc": "melon.mp3"
+    },
+    {
+      "word": "orange",
+      "translation": "апельсин",
+      "image": "orange.jpg",
+      "audioSrc": "orange.mp3"
+    },
+    {
+      "word": "peach",
+      "translation": "персик",
+      "image": "peach.jpg",
+      "audioSrc": "peach.mp3"
+    },
+    {
+      "word": "pear",
+      "translation": "груша",
+      "image": "pear.jpg",
+      "audioSrc": "pear.mp3"
+    }
+  ],
+  [
+    {
+      "word": "ball",
+      "translation": "мяч",
+      "image": "ball.jpg",
+      "audioSrc": "ball.mp3"
+    },
+    {
+      "word": "bear",
+      "translation": "медведь",
+      "image": "bear.jpg",
+      "audioSrc": "bear.mp3"
+    },
+    {
+      "word": "car",
+      "translation": "машина",
+      "image": "car.jpg",
+      "audioSrc": "car.mp3"
+    },
+    {
+      "word": "doll",
+      "translation": "кукла",
+      "image": "doll.jpg",
+      "audioSrc": "doll.mp3"
+    },
+    {
+      "word": "duck",
+      "translation": "утка",
+      "image": "duck.jpg",
+      "audioSrc": "duck.mp3"
+    },
+    {
+      "word": "hammer",
+      "translation": "молоток",
+      "image": "hammer.jpg",
+      "audioSrc": "hammer.mp3"
+    },
+    {
+      "word": "robot",
+      "translation": "робот",
+      "image": "robot.jpg",
+      "audioSrc": "robot.mp3"
+    },
+    {
+      "word": "train",
+      "translation": "поезд",
+      "image": "train.jpg",
+      "audioSrc": "train.mp3"
+    }
+  ],
+  [
+    {
+      "word": "cabbage",
+      "translation": "капуста",
+      "image": "cabbage.jpg",
+      "audioSrc": "cabbage.mp3"
+    },
+    {
+      "word": "carrot",
+      "translation": "морковь",
+      "image": "carrot.jpg",
+      "audioSrc": "carrot.mp3"
+    },
+    {
+      "word": "cucumber",
+      "translation": "огурец",
+      "image": "cucumber.jpg",
+      "audioSrc": "cucumber.mp3"
+    },
+    {
+      "word": "garlic",
+      "translation": "чеснок",
+      "image": "garlic.jpg",
+      "audioSrc": "garlic.mp3"
+    },
+    {
+      "word": "onion",
+      "translation": "лук",
+      "image": "onion.jpg",
+      "audioSrc": "onion.mp3"
+    },
+    {
+      "word": "pepper",
+      "translation": "перец",
+      "image": "pepper.jpg",
+      "audioSrc": "pepper.mp3"
+    },
+    {
+      "word": "potato",
+      "translation": "картофель",
+      "image": "potato.jpg",
+      "audioSrc": "potato.mp3"
+    },
+    {
+      "word": "tomato",
+      "translation": "помидор",
+      "image": "tomato.jpg",
+      "audioSrc": "tomato.mp3"
+    }
+  ],
+  [
+    {
+      "word": "autumn",
+      "translation": "осень",
+      "image": "autumn.jpg",
+      "audioSrc": "autumn.mp3"
+    },
+    {
+      "word": "cloud",
+      "translation": "облако",
+      "image": "cloud.jpg",
+      "audioSrc": "cloud.mp3"
+    },
+    {
+      "word": "fog",
+      "translation": "туман",
+      "image": "fog.jpg",
+      "audioSrc": "fog.mp3"
+    },
+    {
+      "word": "rain",
+      "translation": "дождь",
+      "image": "rain.jpg",
+      "audioSrc": "rain.mp3"
+    },
+    {
+      "word": "snow",
+      "translation": "снег",
+      "image": "snow.jpg",
+      "audioSrc": "snow.mp3"
+    },
+    {
+      "word": "spring",
+      "translation": "весна",
+      "image": "spring.jpg",
+      "audioSrc": "spring.mp3"
+    },
+    {
+      "word": "sun",
+      "translation": "солнце",
+      "image": "sun.jpg",
+      "audioSrc": "sun.mp3"
+    },
+    {
+      "word": "wind",
+      "translation": "ветер",
+      "image": "wind.jpg",
+      "audioSrc": "wind.mp3"
+    }
+  ],
+  [
+    {
+      "word": "ear",
+      "translation": "ухо",
+      "image": "ear.jpg",
+      "audioSrc": "ear.mp3"
+    },
+    {
+      "word": "eye",
+      "translation": "глаз",
+      "image": "eye.jpg",
+      "audioSrc": "eye.mp3"
+    },
+    {
+      "word": "hair",
+      "translation": "волосы",
+      "image": "hair.jpg",
+      "audioSrc": "hair.mp3"
+    },
+    {
+      "word": "hand",
+      "translation": "рука",
+      "image": "hand.jpg",
+      "audioSrc": "hand.mp3"
+    },
+    {
+      "word": "leg",
+      "translation": "нога",
+      "image": "leg.jpg",
+      "audioSrc": "leg.mp3"
+    },
+    {
+      "word": "lips",
+      "translation": "губы",
+      "image": "lips.jpg",
+      "audioSrc": "lips.mp3"
+    },
+    {
+      "word": "nose",
+      "translation": "нос",
+      "image": "nose.jpg",
+      "audioSrc": "nose.mp3"
+    },
+    {
+      "word": "teeth",
+      "translation": "зубы",
+      "image": "teeth.jpg",
+      "audioSrc": "teeth.mp3"
+    }
+  ]
+]
